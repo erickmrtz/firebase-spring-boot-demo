@@ -1,0 +1,17 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+  max-http-header-size: 8192
+
+###### Custom ######
+demo:
+  google:
+    firebase:
+      configPath: ${CREDENTIALS_FILE}
+
