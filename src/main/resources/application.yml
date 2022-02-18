@@ -14,4 +14,6 @@ demo:
   google:
     firebase:
       configPath: ${CREDENTIALS_FILE}
+      projectId: ${PROJECT_ID}
+      bucketId: ${BUCKET_ID}
 
